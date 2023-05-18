@@ -1,0 +1,60 @@
+.navbar{
+  background-color: black;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+    
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px;
+  border: 3px solid white;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.navbar a:hover{
+  background-color: white;
+  color: black;
+  transition: .1s;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 20%;
+  margin-left: 30%;
+  
+}
+
+form input{
+  font-size: 18px;
+  padding: 2%;
+  margin: 2%;
+  border: none;
+  border-bottom: 1px solid;
+
+}
+form input:focus{
+  border: none;
+}
+form label{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 2%;
+}
+
+form button{
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  border: none;
+  padding: 3px;
+  font-weight: bold;
+}
